@@ -1,0 +1,72 @@
+Options All -Indexes
+
+<Files .htaccess>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files header.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files main.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files footer.php>
+  order allow,deny
+  deny from all
+</Files>
+
+
+<Files contacts-block.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files filter.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files top_arrow.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files send-form.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files wedding/send-form.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files wedding/top_arrow.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files wedding/header.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files wedding/footer.php>
+  order allow,deny
+  deny from all
+</Files>
+
+<Files wedding/contacts-block.php>
+  order allow,deny
+  deny from all
+</Files>
+
+
+ErrorDocument 404 /404.php
+
+
